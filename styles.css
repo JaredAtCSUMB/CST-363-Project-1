@@ -1,8 +1,12 @@
 .main-container {
-  border: 1px solid black;
   text-align: center;
-  margin-top: 5%;
-  min-height: 600px;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.main-card {
+  padding: 50px;
+  min-height: 630px;
 }
 
 img {
@@ -21,4 +25,15 @@ img {
 
 .row {
   margin-top: 50px;
+}
+
+.back-btn {
+  float: left;
+  max-width: 100px;
+  text-decoration: none;
+}
+
+html {
+  background: #f2f2f2;
+  padding: 30px;
 }

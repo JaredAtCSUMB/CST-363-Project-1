@@ -1,0 +1,24 @@
+.main-container {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 5%;
+  min-height: 600px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+}
+
+.card-text {
+  min-height: 50px;
+}
+
+.card {
+  margin: 0 10px;
+}
+
+.row {
+  margin-top: 50px;
+}

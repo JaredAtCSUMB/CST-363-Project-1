@@ -15,7 +15,8 @@
         <h1>Login or Register Below</h1>
         <div class="row justify-content-center">
           <div class="card" style="width: 20rem; padding: 20px 0;">
-              <img src="./images/customer.jpg" class="card-img-top" alt="customer">
+            <img src="./images/customer.jpg" class="card-img-top" alt="customer">
+            <h5 class="card-title">Login to view order</h5>
               <div class="card-body">
                 <!-- TODO: connect customer form -->
                 <form>
@@ -23,8 +24,33 @@
                   <input type="text" name="userName" id="userName" /><br>
                   <label for="password">Password: </label>
                   <input type="password" name="password" id="password" /><br>
-                  <button href="customer.html" class="btn btn-primary">Login</button>
-                  <button href="customer.html" class="btn btn-primary">Register</button>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+              </div>
+          </div>
+          <p class="divider">or</p>
+          <div class="card" style="width: 22rem; padding: 20px 0;">
+            <h5 class="card-title">Register a new account</h5>
+              <div class="card-body">
+                <!-- TODO: connect customer form -->
+                <form>
+                  <label for="userName">Username: </label>
+                  <input type="text" name="userName" id="userName" /><br>
+                  <label for="password">Password: </label>
+                  <input type="password" name="password" id="password" /><br>
+                  <label for="firstName">First Name: </label>
+                  <input type="text" name="firstName" id="firstName" /><br>
+                  <label for="lastName">Last Name: </label>
+                  <input type="text" name="lastName" id="Lastname" /><br>
+                  <label for="phoneNumber">Phone Number: </label>
+                  <input type="text" name="phoneNumber" id="phoneNumber" /><br>
+                  <label for="carMake">Car Make: </label>
+                  <input type="text" name="carMake" id="carMake" /><br>
+                  <label for="carModel">Car Model: </label>
+                  <input type="text" name="carModel" id="carModel" /><br>
+                  <label for="carYear">Car Year: </label>
+                  <input type="text" name="carYear" id="carYear" /><br>
+                  <button type="submit" class="btn btn-primary">Register</button>
                 </form>
               </div>
           </div>

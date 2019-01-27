@@ -10,11 +10,11 @@
 Valid service IDs are 1-11
 
 ### Existing Customer:
-Username: jeryam
-Password: ADFAS333
-Customer ID: 1
+Username: jeryam  
+Password: ADFAS333  
+Customer ID: 1  
 
 ### Employee:
-Username: kan1
-Password: 123456
-Employee ID: 1
+Username: kan1  
+Password: 123456  
+Employee ID: 1  

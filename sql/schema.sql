@@ -61,7 +61,7 @@ CREATE TABLE `customer` (
   `password` varchar(15) DEFAULT NULL,
   `phone_number` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`customer_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

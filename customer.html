@@ -19,7 +19,7 @@
             <h5 class="card-title">View Your Order(s)</h5>
               <div class="card-body">
                 <!-- TODO: connect customer form -->
-                <form>
+                <form method="post" enctype="multipart/form-data" action="cgi-bin/customer.py">
                   <label for="userName">Username: </label>
                   <input type="text" name="userName" id="userName" /><br>
                   <label for="password">Password: </label>
@@ -32,8 +32,7 @@
           <div class="card" style="width: 22rem; padding: 20px 0;">
             <h5 class="card-title">Register a New Account</h5>
               <div class="card-body">
-                <!-- TODO: connect customer form -->
-                <form>
+                <form method="post" enctype="multipart/form-data" action="cgi-bin/customer.py">
                   <label for="userName">Username: </label>
                   <input type="text" name="userName" id="userName" /><br>
                   <label for="password">Password: </label>
@@ -50,6 +49,7 @@
                   <input type="text" name="carModel" id="carModel" /><br>
                   <label for="carYear">Car Year: </label>
                   <input type="text" name="carYear" id="carYear" /><br>
+                  <input type="hidden" name="register" id="register" />
                   <button type="submit" class="btn btn-primary">Register</button>
                 </form>
               </div>

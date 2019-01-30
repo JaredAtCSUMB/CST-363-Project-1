@@ -17,8 +17,7 @@
           <div class="card" style="width: 20rem; padding: 20px 0;">
               <img src="./images/employee.jpg" class="card-img-top" alt="employee">
               <div class="card-body">
-                <!-- TODO: connect employee form -->
-                <form>
+                <form method="post" enctype="multipart/form-data" action="cgi-bin/employee.py">
                   <label for="userName">Username: </label>
                   <input type="text" name="userName" id="userName" /><br>
                   <label for="password">Password: </label>
@@ -27,6 +26,8 @@
                   <input type="text" name="customerId" id="customerId" /><br>
                   <label for="serviceId">Service ID: </label>
                   <input type="text" name="serviceId" id="serviceId" /><br>
+                  <label for="order_date">Order Date: </label>
+                  <input type="date" id="order_date" name="order_date"  />
                   <button type="submit" class="btn btn-primary">Place Service</button>
                 </form>
               </div>

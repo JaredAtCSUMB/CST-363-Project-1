@@ -1,6 +1,6 @@
 # JAD Auto Repair
 ### To get started:
-1) Update the customer.py, employee.py and service.py files to use your password for your database
+1) Open the customer.py, employee.py and service.py files and set the dbPassword variable to the password for your local database
 2) Navigate to the project root and run `python httpserver.py`
 3) Open your browser to http://127.0.0.1:8000/index.html
 4) On the Services page, you can view the services offered

@@ -5,7 +5,7 @@
 3) Open your browser to http://127.0.0.1:8000/index.html
 4) On the Services page, you can view the services offered
 5) On the Customer page, either use the customer credentials below to view an order or create a new record (default table has customer IDs 1-7)
-6) On the Employee page, use the employee credentials below to place a new order, making sure to use the correct customer ID
+6) On the Employee page, use the employee credentials below to either place a new order (making sure to use the correct customer ID), or to select one of the reports to view
 
 ### Services:
 Valid service IDs are 1-11

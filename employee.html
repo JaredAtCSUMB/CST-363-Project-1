@@ -32,6 +32,31 @@
                 </form>
               </div>
           </div>
+          <div class="card" style="width: 22rem; padding: 20px 0;">
+              <img src="./images/report.jpg" class="card-img-top" alt="employee">
+              <div class="card-body">
+                <form method="post" enctype="multipart/form-data" action="cgi-bin/employee.py">
+                  <label for="userName">Username: </label>
+                  <input type="text" name="userName" id="userName" /><br>
+                  <label for="password">Password: </label>
+                  <input type="password" name="password" id="password" /><br>
+                  <div class="form-row">
+                    <label for="reportType">Report Type: </label>
+                    <select name="reportType" id="reportType" class="select form-control-sm">
+                      <option value="multiCar">Multiple Cars in Shop</option>
+                      <option value="numberOfServices">Number of Services per Car</option>
+                      <option value="mostUsed">Most Used Services</option>
+                      <option value="timeOfYear">Service Times of Year</option>
+                      <option value="averageCount">Average Customer Count</option>
+                      <option value="annualSpend">Annual Average Spend</option>
+                    </select>
+                  </div>
+                  <br>
+                  <input type="hidden" name="report" id="report" />
+                  <button type="submit" class="btn btn-primary">Request Report</button>
+                </form>
+              </div>
+          </div>
         </div>
       </div>
     </div>

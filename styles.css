@@ -43,3 +43,9 @@ html {
   padding: 20px;
   font-size: 32px;
 }
+
+.select {
+  max-width: 210px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}

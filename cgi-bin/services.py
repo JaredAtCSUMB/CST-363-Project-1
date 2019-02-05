@@ -27,7 +27,7 @@ services = 'select * from service'
 
 # connect to database
 # IMPORTANT: update this password with your own
-dbPassword = 'dbPassword'
+dbPassword = ''
 cnx = mysql.connector.connect(user='root',
                                 password=dbPassword,
                                 database='jadautorepair',

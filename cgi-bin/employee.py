@@ -36,7 +36,7 @@ insertOrder = "INSERT INTO orders (car_id, service_id, order_date) VALUE (%s, %s
 
 # connect to database
 # IMPORTANT: update this password with your own
-dbPassword = 'dbPassword'
+dbPassword = ''
 cnx = mysql.connector.connect(user='root',
                                 password=dbPassword,
                                 database='jadautorepair',

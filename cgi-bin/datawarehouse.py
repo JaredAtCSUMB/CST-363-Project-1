@@ -38,7 +38,7 @@ annualSpend = "select order_year as 'year', avg(amount) as 'average spending' fr
 
 # connect to database
 # IMPORTANT: update this password with your own
-dbPassword = 'dbPassword'
+dbPassword = ''
 cnx = mysql.connector.connect(user='root',
                                 password=dbPassword,
                                 database='jadautorepair_dw',
